@@ -5,7 +5,7 @@ import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 h-24 bg-gradient-to-r from-primary-900 to-primary-800 flex items-center justify-between px-40">
+  <header className="sticky top-0 h-[10vh] bg-gradient-to-r from-primary-900 to-primary-800 flex items-center justify-between px-60 shadow-lg shadow-neutral-700">
       <Link to="/">
         <img src={logo} className="h-14 object-cover" />
       </Link>

@@ -1,7 +1,14 @@
 import React from "react";
+import { Hero } from "../components/Home/Hero";
+import { Categories } from "../components/Home/Categories";
 
 const Home: React.FC = () => {
-  return "This is the home page";
+  return (
+    <>
+      <Hero />
+      <Categories />
+    </>
+  )
 };
 
 export { Home };

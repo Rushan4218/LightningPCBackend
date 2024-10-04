@@ -7,3 +7,10 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    background-color: #EAEBEE;
+}
+.gradient-bg {
+    background-image: radial-gradient(circle at center, #222526 10%, #6D7175 20%, #CACDD2 70%)
+}

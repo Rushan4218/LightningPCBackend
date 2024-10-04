@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="mx-40">
+    <footer className="px-60">
         This is the footer section
     </footer>
   )

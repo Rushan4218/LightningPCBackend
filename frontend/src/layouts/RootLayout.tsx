@@ -9,7 +9,7 @@ const RootLayout: React.FC = () => {
     <div>
       <TopHeader />
       <Header />
-      <div className="mx-40">
+      <div className="mx-60">
         <Outlet />
       </div>
       <Footer />

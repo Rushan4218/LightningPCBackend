@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const TopHeader: React.FC = () => {
   return (
-    <div className="px-40 h-8 bg-gray-950 text-white flex justify-between">
+    <div className="px-40 h-[3vh] bg-gray-950 text-white flex justify-between">
       <div className="flex items-center gap-2">
         <div className="flex items-center text-[12px] gap-[2px]">
           <FaPhone />
