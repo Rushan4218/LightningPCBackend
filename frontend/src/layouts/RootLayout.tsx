@@ -1,17 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Header } from "../components/RootLayout/Header";
-import { Footer } from "../components/RootLayout/Footer";
-import { TopHeader } from "../components/RootLayout/TopHeader";
+import { Header } from "../sections/RootLayout/Header";
+import { Footer } from "../sections/RootLayout/Footer";
 
 const RootLayout: React.FC = () => {
   return (
     <div>
-      <TopHeader />
       <Header />
-      <div className="mx-60">
-        <Outlet />
-      </div>
+      <Outlet />
       <Footer />
     </div>
   );
